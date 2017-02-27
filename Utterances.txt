@@ -1,0 +1,4 @@
+AddMessageIntent add {nice song|Message}
+SearchMessageIntent search {song|Message}
+ReadMessageIntent read {Selector}
+DeleteMessageIntent delete {Selector}

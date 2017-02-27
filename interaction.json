@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "AddMessageIntent",
+      "slots": [
+        {
+          "name": "Message",
+          "type": "Literal"
+        }
+      ]
+    },
+    {
+      "intent": "ReadMessageIntent",
+      "slots": [
+        {
+          "name": "Selector",
+          "type": "MESSAGE_SELECTOR"
+        }
+      ]
+    },
+    {
+      "intent": "SearchMessageIntent",
+      "slots": [
+        {
+          "name": "Message",
+          "type": "Literal"
+        }
+      ]
+    },
+    {
+      "intent": "DeleteMessageIntent",
+      "slots": [
+        {
+          "name": "Selector",
+          "type": "MESSAGE_SELECTOR"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
